@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script type="text/javascript" src="index.js"></script>
+
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
+
+  <body>
+    <!-- Rating state start -->
+    <main
+      class="container justify-content-center flex-column d-flex align-items-center"
+    >
+      <section class="rating-start">
+        <div class="card" style="width: 18rem">
+          <div class="card-body">
+            <span class="dona dona-star">
+              <img class="dona-element" src="./images/icon-star.svg" alt="star"
+            /></span>
+            <h1 class="card-title">How did we do?</h1>
+            <p class="card-text">
+              Please let us know how we did with your support request. All
+              feedback is appreciated to help us improve our offering!
+            </p>
+
+            <div class="ratings">
+              <span class="dona btn-rating"> 1</span>
+              <span class="dona btn-rating"> 2</span>
+              <span class="dona btn-rating"> 3</span>
+              <span class="dona btn-rating"> 4</span>
+              <span class="dona btn-rating"> 5</span>
+            </div>
+
+            <a href="#" class="btn btn-submit w-100">SUBMIT</a>
+          </div>
+        </div>
+      </section>
+      <!-- Rating state end -->
+      <secction class="rating-end">
+        <div class="card text-center" style="width: 18rem">
+          <div class="card-body">
+            <div class="img-thank-you">
+              <img
+                class=""
+                src="./images/illustration-thank-you.svg"
+                alt="ty"
+              />
+            </div>
+            <div class="rating-selected">
+              <h6 class="title-rating-selected">You selected 4 out 6</h6>
+            </div>
+            <h1 class="card-title">Thank You!</h1>
+            <p class="card-text">
+              We appreciate you taking the time to give a rating. If you ever
+              need more support, don’t hesitate to get in touch!
+            </p>
+          </div>
+        </div>
+      </secction>
+
+      <!-- Thank you state start -->
+
+      <!-- Add rating here -->
+
+      <!-- Thank you state end -->
+
+      <section class="attribution">
+        Coded by <a href="#">Francisco Javier Barreras Cebreros</a>.
+      </section>
+    </main>
+  </body>
+</html>
