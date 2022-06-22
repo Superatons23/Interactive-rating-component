@@ -64,13 +64,13 @@ body {
 }
 /**TEXT**/
 .card-title {
-  font-size: 1.3rem;
+  font-size: 1.7rem;
   font-weight: 700;
   margin-top: 1rem;
   color: var(--white-neutral);
 }
 .card-text {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   color: var(--medium-grey-neutral);
 }
 /************************/
@@ -140,7 +140,6 @@ body {
 @media (min-width: 800px) {
   .ratings span:hover {
     background-color: var(--orange-primary);
-
     color: var(--white-neutral);
   }
 }
