@@ -32,8 +32,8 @@ body {
 }
 
 .dona {
-  height: 35px;
-  width: 35px;
+  height: 43px;
+  width: 43px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -64,7 +64,7 @@ body {
 }
 /**TEXT**/
 .card-title {
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   font-weight: 700;
   margin-top: 1rem;
   color: var(--white-neutral);
