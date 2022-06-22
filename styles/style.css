@@ -134,11 +134,13 @@ body {
 }
 
 /************************/
-
-@media (max-width: 800px) {
+.ratings span {
+  cursor: pointer;
+}
+@media (min-width: 800px) {
   .ratings span:hover {
     background-color: var(--orange-primary);
-    cursor: pointer;
+
     color: var(--white-neutral);
   }
 }
